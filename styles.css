@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap:25px;
+}
+
+.container button{
+    position: relative;
+    top: 30px;
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+} */
+
+.todo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 70px;
+}
+
+.todo h1 {
+  color: red;
+  text-align: center;
+}
+
+.todo input {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  padding: 5px 500px;
+}
+
+.todo #button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: green;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: relative;
+  top: 20px;
+  left: 500px;
+}
+
+.todo .todolist {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  column-gap: 20px;
+}
+
+.todo .todolist .button1 { 
+  background-color: yellow;
+  width: 100px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.todo .todolist .button2 {
+  background-color: red;
+  width: 80px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
